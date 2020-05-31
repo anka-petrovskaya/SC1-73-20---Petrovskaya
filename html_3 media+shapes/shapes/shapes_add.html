@@ -36,7 +36,7 @@
                     <option value="Ноябрь">Ноябрь</option>
                     <option value="Декабрь">Декабрь</option>
                 </select></p>
-                <p><input type="number" size="2" min="1" maxlength="31" value="1"></p>
+                <p><input type="number" name="num" size="2" min="1" maxlength="31" value="1"></p>
             </fieldset>
             <select required>
                 <option selected value="РБ">РБ</option>
@@ -76,8 +76,8 @@
                 </fieldset>
                 <fieldset>
                     <legend>Данные для входа и восстановления пароля</legend>
-                    <p><input type="text" placeholder="Логин" required size="20" minlength="5" pattern="[A-Za-z]"></p>
-                    <p><input type="url" placeholder="Пароль" required min="10" size="20" pattern="[A-Za-z]" autocomplete="off"></p>
+                    <p><input type="text" name="text" placeholder="Логин" required size="20" minlength="5" pattern="[A-Za-z]"></p>
+                    <p><input type="url" name="url" placeholder="Пароль" required min="10" size="20" pattern="[A-Za-z]" autocomplete="off"></p>
                 </fieldset>
                 <fieldset>
                     <legend>Координаты</legend>
@@ -86,8 +86,8 @@
                 </fieldset>
                 <fieldset>
                     <legend>Цифры</legend>
-                    <p><input type="number" min="-2.5" max="2.5" value="0.1" step="0.1"></p>
-                    <p><input type="range" min="1" max="10"></p>
+                    <p><input type="number" name="num" min="-2.5" max="2.5" value="0.1" step="0.1"></p>
+                    <p><input type="range" name="range" min="1" max="10"></p>
                 </fieldset>
                 <fieldset>
                     <legend>Кнопки управления</legend>
