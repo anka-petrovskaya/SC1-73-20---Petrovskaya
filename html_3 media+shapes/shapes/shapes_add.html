@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Заполните анкету</h1>
-        <form method="GET" action="http://sc.it-academy.by/fe/form.php">
+        <form method="GET" action="http://sc.it-academy.by/fe/form.php" name="form">
             <fieldset>
                 <legend>Личные данные</legend>
                 <p><input type="text" name="surname" placeholder="Фамилия" pattern="[А-Яа-яЁё]" maxlength="25" required autofocus></p>
@@ -22,7 +22,7 @@
             <fieldset>
                 <legend>Дата рождения</legend>
                 <p><input type="text" size="4" maxlength="4" pattern="[0-9]{4}"></p>
-                <p><select>
+                <p><select name="select">
                     <option selected value="Январь">Январь</option>
                     <option value="Февраль">Февраль</option>
                     <option value="Март">Март</option>
@@ -56,7 +56,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Домашние животные</legend>
-                    <p><select size="12" multiple="3">
+                    <p><select size="12" name="select" multiple>
                         <optgroup label="Попугаи">
                         <option selected value="Волнистый">Волнистый</option>
                         <option value="Ара">Ара</option>
@@ -81,7 +81,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Координаты</legend>
-                    <p><input type="email" name="login"></p>
+                    <p><input type="email" name="login" pattern="(\w+@[a-zA-Z_]+?|.[a-zA-Z]{2,6})"></p>
                     <p><input type="url" name="link"></p>
                 </fieldset>
                 <fieldset>
