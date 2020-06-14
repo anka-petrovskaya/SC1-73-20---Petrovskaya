@@ -1,0 +1,9 @@
+header {font-family: monospace; font-size: 16px; text-align: right;}
+article {font-family: 'Caveat', cursive;
+    font-size: 24px;
+    }
+h3 {font-family: 'Caveat', cursive;
+    font-size: 24px;
+font-style: italic;
+}  
+footer {font-family: monospace; font-size: 16px; text-align: left;}
